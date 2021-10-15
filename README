@@ -40,6 +40,9 @@ Kernel features include:
 -DNS resolver 
 -checkpoint restore 
 
+-------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
+
 Tips and Tricks 
 
 to use services in the kali chroot you should first run 
@@ -59,3 +62,12 @@ apt-get install systemctl
 the systemctl command for this chroot is deamonless and you can use it to run services with 
 
 systemctl enable/disable service
+
+-------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
+
+Monitor mode can be used with or with out an adapter you can find more info about it at this link
+
+https://github.com/kimocoder/qualcomm_android_monitor_mode
+
+The directions on Kimcoders github site assume you are using an adapter but its optional
