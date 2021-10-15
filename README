@@ -1,0 +1,42 @@
+This is the repository conataining the prebuilt kernels for Kali-Linux-NetHunter 
+for the Google Pixel 3a Bonito/Sargo devices. You can also find the Magisk modules
+to flash the light weight android kali-linux-nethunter gui system. You will need to 
+download your own kali rolling root file system.
+
+Kernel features include:
+
+-optimized for performance and battery life
+-Klapse color control with backlight dimmer and high brightness mode
+-Boeffla wakelock blocker
+-vibration control
+-sound control
+-the usual I/O schedulars like zen fiops deadline and such
+-adreno boost
+-fsync switch
+-wireguard support
+-HID support
+-previously disabled otg is now enabled
+-full usb support including.........
+---serial
+---ACM
+---OBEX
+---NCM
+---ECM
+---RNDIS
+---EEM
+---mass storage
+---MTP and PTP
+---MIDI
+---DIAG
+---QC soc otg 
+-ntfs
+-devtmpfs and mount
+-full bluetooth support
+-Wifi injection
+-dvb / sdr support
+-Built in module support which allows kernel to be used with any rom
+-systemd/upstart support for dual boot
+-LZMA compression to keep twrp
+
+
+
